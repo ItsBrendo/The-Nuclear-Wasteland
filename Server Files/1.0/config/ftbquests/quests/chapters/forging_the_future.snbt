@@ -1,0 +1,305 @@
+{
+	autofocus_id: "5BC3577AB909F06C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forging_the_future"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: "mekanism:energized_smelter"
+	id: "3EC290315A7F0A26"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5169C721247FEA53"
+				"2BDDED64A551238B"
+			]
+			description: ["This isn’t just a machine—it’s the core of everything to come. The Metallurgic Infuser will open paths to refined alloys, circuits, and a future beyond fire and stone. Without it, your progress ends here."]
+			id: "681850369FCAEEFE"
+			size: 1.0d
+			tasks: [{
+				id: "4C802A5BB8F28A15"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "Heart of the Machines"
+			x: -19.5d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"5169C721247FEA53"
+				"5BC3577AB909F06C"
+			]
+			description: ["No machine functions without a brain. The Basic Control Circuit is your first. Learn it well—you’ll be crafting hundreds before you’re through."]
+			id: "6D6B9FA39EDFD14C"
+			size: 1.0d
+			tasks: [{
+				id: "4F5228CDD16AA1EB"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			title: "Core Component"
+			x: -11.5d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"3F982E52FABA31B0"
+				"241D5E73B3F476F7"
+			]
+			description: ["Infuse iron with redstone to create a stable, flexible alloy. It’s the base of everything advanced."]
+			id: "4B8F898574A09CF2"
+			size: 1.0d
+			tasks: [{
+				id: "20C1993E851E3A69"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			title: "Red Meets Iron"
+			x: -7.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5BC3577AB909F06C"]
+			description: ["With power comes potential—and destruction. The Crusher lets you turn gravel to sand, leaves to fuel, and metal to dust. Welcome to proper processing."]
+			id: "4AE02AC921B7C9FB"
+			size: 1.0d
+			tasks: [{
+				id: "04A6A77952B657A5"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			title: "Break It Down"
+			x: -14.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6D6B9FA39EDFD14C"]
+			description: ["A flexible core of stored energy. The Energy Tablet is used in countless machines—compact, reliable, and just the beginning."]
+			id: "241D5E73B3F476F7"
+			size: 1.0d
+			tasks: [{
+				id: "215F795E258B5119"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			title: "Power in Your Hands"
+			x: -9.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["4B8F898574A09CF2"]
+			description: ["The world may be still, but the skies still stir. The Wind Generator offers clean, quiet power—if you can build high enough."]
+			id: "109B0052B68256CB"
+			size: 1.0d
+			tasks: [{
+				id: "068316A34689507D"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			title: "Winds of Change"
+			x: -5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["109B0052B68256CB"]
+			description: ["With Crusher-made sand turned into glass, it’s time to look upward. Build a Solar Generator and harness the sky itself."]
+			id: "37CEE49EA1F62019"
+			size: 1.0d
+			tasks: [{
+				id: "5A085D74DABB7579"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			title: "Power from the Sky"
+			x: -5.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["37CEE49EA1F62019"]
+			description: ["Your old panels flickered at dusk—this one hums through the fog. The Advanced Solar Generator doesn’t just survive the wasteland—it thrives in it."]
+			id: "5307441A34C50114"
+			size: 1.0d
+			tasks: [{
+				id: "5DF0CCFBDCD1DA0C"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			title: "Solar Ascension"
+			x: -5.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["681850369FCAEEFE"]
+			description: ["Before you get steel, you need Enriched Iron. Infuse your raw iron and watch it evolve."]
+			id: "1F5981FB9950ED02"
+			size: 1.0d
+			tasks: [{
+				id: "0F802A6756A54B1D"
+				item: "mekanism:enriched_iron"
+				type: "item"
+			}]
+			title: "Refined Foundation"
+			x: -17.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["109B0052B68256CB"]
+			description: ["Power is useless if it can’t move. These basic cables carry energy where you need it—efficient, expandable, and critical to any setup."]
+			id: "76AAACF49FD45B3E"
+			size: 1.0d
+			tasks: [{
+				id: "532F9B2BC7FEFA0D"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			title: "Conductive Flow"
+			x: -3.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["02EA9AE0BA6B3AD4"]
+			description: ["It’s not enough to store—now you can move items automatically. Route drops, feed machines, and build early automation networks."]
+			id: "45A3B89B94F00340"
+			size: 1.0d
+			tasks: [{
+				id: "7AEFE2FF64882C2E"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			title: "Item Control"
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["76AAACF49FD45B3E"]
+			description: ["Fluids need just as much control as power or items. Mechanical Pipes let you automate liquid transfer—vital for fuel, water, or chemicals."]
+			id: "02EA9AE0BA6B3AD4"
+			size: 1.0d
+			tasks: [{
+				id: "527111A4C0D42378"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			title: "Liquid Handling"
+			x: -3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1F5981FB9950ED02"]
+			description: ["Smelt Enriched Iron to produce Steel Dust, then fire it. Steel is your gateway to serious machinery."]
+			id: "2E9E279C5AB267EF"
+			size: 1.0d
+			tasks: [{
+				id: "206C2AF31D35FD05"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			title: "Forged Strength"
+			x: -15.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2E9E279C5AB267EF"]
+			description: ["This is the skeleton of every advanced machine. Steel, glass, and circuits—simple parts that hold powerful potential."]
+			id: "5BC3577AB909F06C"
+			size: 1.0d
+			tasks: [{
+				id: "7AF2613C8CC02508"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "Core Frame"
+			x: -13.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5BC3577AB909F06C"]
+			description: ["Why waste wood? The Precision Sawmill turns logs into extra planks—and sometimes even sawdust. It’s precise, efficient, and a staple of smart industry."]
+			id: "18C971D3FC6416C3"
+			size: 1.0d
+			tasks: [{
+				id: "23A4C43859D72C0F"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			title: "Refined Cutting"
+			x: -12.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["76AAACF49FD45B3E"]
+			description: ["Generation is just the start—now you need somewhere to store that energy. The Basic Energy Cube acts as a power bank for your growing grid."]
+			id: "58365B0596F4E0B7"
+			size: 1.0d
+			tasks: [{
+				id: "58F58CC6FADB85FC"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			title: "Power Reserve"
+			x: -1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5BC3577AB909F06C"]
+			description: ["It begins here. The Enrichment Chamber doubles your ores and opens the gateway to every Mekanism upgrade. No steel casing, no progress."]
+			id: "2161834C762EA74D"
+			size: 1.0d
+			tasks: [{
+				id: "74D7A813CA146BB3"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "Precision Processing"
+			x: -14.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["5BC3577AB909F06C"]
+			description: ["Faster, cleaner, and upgradeable. The Energized Smelter puts your old furnace to shame and fits neatly into any automation chain."]
+			id: "190B9F094049D21C"
+			size: 1.0d
+			tasks: [{
+				id: "5C181ACB836AD9FB"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			title: "Smelting, Supercharged"
+			x: -12.5d
+			y: -15.0d
+		}
+		{
+			description: ["Simple, reliable, and warm—your first generator uses heat to produce power. It won’t take you far, but it will light the path to real technology."]
+			id: "2BDDED64A551238B"
+			tasks: [{
+				id: "541516FBD97F5A0C"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			title: "Heat for Hope"
+			x: -21.5d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"3FDB63EB060A2B12"
+				"58365B0596F4E0B7"
+			]
+			description: ["You have completed all currently available quests for this chapter. It is recommended you start the \"&oFragments Of Control&r\" chapter next."]
+			id: "15D7A78277A4CEEC"
+			subtitle: "More quests being added each update!"
+			tasks: [{
+				id: "1D40882ADA71E102"
+				title: "Complete Chapter"
+				type: "checkmark"
+			}]
+			title: "Chapter Complete"
+			x: 0.5d
+			y: -13.5d
+		}
+	]
+	title: "Forging The Future"
+}

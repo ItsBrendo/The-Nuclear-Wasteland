@@ -1,0 +1,113 @@
+
+# Created by Ruins mod Ingame Parser
+# authoring Player: Brendoooooo
+
+# TEMPLATE PARAMETER SETTINGS:
+#
+# criterion expression specifying mod ids required to load template
+# may include plus (AND), minus (AND NOT), comma (OR), and parentheses
+# all required mods listed must be present; no prohibited mods can be
+requiredMods=
+#
+# likelihood this template will be chosen relative to all others
+# e.g., a weight=6 template is chosen 3X as often as one with weight=2
+weight=1
+#
+# list of dimensions in which this template may spawn, even if generic
+# one or more dimension names, separated by commas (blank = all)
+dimensionsToSpawnIn=
+#
+# list of other biomes in which this template may spawn
+# biome corresponding to directory is always assumed, listed or not
+# generic templates should leave this list empty
+biomesToSpawnIn=
+#
+# criterion expression specifying types of biome where template spawns
+# this is in addition to those explicitly listed as biomesToSpawnIn
+# generic templates should leave this list empty
+biomeTypesToSpawnIn=
+#
+# list of biomes in which this template may not spawn
+# takes precedence over biomeTypesToSpawnIn, but NOT biomesToSpawnIn
+# should be empty if biomeTypesToSpawnIn is empty
+biomesToNotSpawnIn=
+#
+# depth template is pushed down into the surface when built
+# offset is min/max range of random additional bury depth
+embed_into_distance=0
+random_height_offset=0,0
+#
+# whitelist/blacklist of block states on which template may be built
+# specify one, not both; leave the other empty (both empty = allow all)
+# CAUTION: THE DEFAULTS ONLY APPLY TO NON-FLOWING LAVA AND WATER VARIANTS)
+acceptable_target_blocks=
+unacceptable_target_blocks={Name:"minecraft:water",Properties:{level:"0"}},{Name:"minecraft:lava",Properties:{level:"0"}}
+#
+# size of template (#layers, #rows per layer, #blocks per row)
+dimensions=2,9,9
+#
+# max number of missing blocks allowed in surface beneath template
+allowable_overhang=0
+#
+# depth/height limit affected by terrain leveling
+# also maximum bumpiness tolerated in surface beneath template
+max_leveling=4
+#
+# padding applied to all sides of template horizontal footprint
+# expands area affected by terrain leveling (-1 = no leveling)
+leveling_buffer=0
+#
+# do not rotate template randomly when built (1 = no rotation)
+preventRotation=0
+#
+# treat water/lava blocks as air and protect them from rule0 (1 = yes)
+preserve_water=0
+preserve_lava=0
+#
+# minimum distance this template must have from instances of itself
+uniqueMinDistance=0
+#
+# min/max distances this template can be from world spawn (0 = no limit)
+# only applies to overworld--i.e., dimension 0
+spawnMinDistance=0
+spawnMaxDistance=0
+#
+# other template built nearby whenever this one is
+# syntax: <name>;<relativeX>;<maxYdifference>;<relativeZ>[;<chance>]
+# may be used more than once to specify multiple neighbors
+adjoining_template=
+
+rule1={Name:"biomesoplenty:dead_log",Properties:{axis:"z"}}
+rule2={Name:"biomesoplenty:dead_branch",Properties:{facing:"east"}}
+rule3={Name:"minecraft:skeleton_skull",Properties:{rotation:"5"},Ruins:{entity:{ForgeCaps:{}}}}
+rule4={Name:"biomesoplenty:dead_log",Properties:{axis:"x"}}
+rule5={Name:"minecraft:campfire",Properties:{facing:"south",lit:"false",signal_fire:"false",waterlogged:"false"},Ruins:{entity:{CookingTimes:[I;0,0,0,0],CookingTotalTimes:[I;0,0,0,0],ForgeCaps:{},Items:[]}}}
+rule6={Name:"biomesoplenty:dead_branch",Properties:{facing:"west"}}
+rule7={Name:"iceandfire:ghost_chest",Properties:{facing:"up",open:"false"},Ruins:{entity:{ForgeCaps:{},Items:[{Count:1b,Slot:0b,id:"minecraft:cobweb"},{Count:1b,Slot:1b,id:"minecraft:cobweb"},{Count:1b,Slot:2b,id:"minecraft:cobweb"},{Count:1b,Slot:3b,id:"minecraft:cobweb"},{Count:1b,Slot:4b,id:"minecraft:cobweb"},{Count:1b,Slot:5b,id:"rats:contaminated_food"},{Count:1b,Slot:6b,id:"rats:contaminated_food"},{Count:4b,Slot:7b,id:"pamhc2foodcore:marshmellowsitem"},{Count:1b,Slot:8b,id:"rats:contaminated_food"},{Count:1b,Slot:9b,id:"minecraft:cobweb"},{Count:1b,Slot:10b,id:"minecraft:cobweb"},{Count:4b,Slot:11b,id:"pamhc2foodcore:marshmellowsitem"},{Count:1b,Slot:12b,id:"minecraft:cobweb"},{Count:1b,Slot:13b,id:"rats:contaminated_food"},{Count:1b,Slot:14b,id:"minecraft:cobweb"},{Count:1b,Slot:15b,id:"minecraft:cobweb"},{Count:1b,Slot:16b,id:"minecraft:cobweb"},{Count:1b,Slot:17b,id:"minecraft:cobweb"},{Count:1b,Slot:18b,id:"rats:contaminated_food"},{Count:1b,Slot:19b,id:"rats:contaminated_food"},{Count:1b,Slot:20b,id:"minecraft:cobweb"},{Count:1b,Slot:21b,id:"minecraft:cobweb"},{Count:1b,Slot:22b,id:"minecraft:cobweb"},{Count:1b,Slot:23b,id:"minecraft:cobweb"},{Count:1b,Slot:24b,id:"minecraft:cobweb"},{Count:1b,Slot:25b,id:"rats:contaminated_food"},{Count:1b,Slot:26b,id:"minecraft:cobweb"}]}}}
+rule8={Name:"minecraft:skeleton_skull",Properties:{rotation:"7"},Ruins:{entity:{ForgeCaps:{}}}}
+rule9={Name:"minecraft:skeleton_skull",Properties:{rotation:"14"},Ruins:{entity:{ForgeCaps:{}}}}
+
+layer
+0,0,0,0,1,1,1,0,0
+0,0,0,0,0,3,2,0,0
+0,0,4,0,0,0,0,0,4
+0,0,4,0,0,5,0,0,4
+0,0,4,0,0,0,0,0,4
+0,0,0,0,6,0,0,0,0
+0,0,0,0,1,1,1,0,0
+0,7,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,8
+0,0,9,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0
+0,0,0,0,9,0,0,0,0
+0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0
+endlayer
+

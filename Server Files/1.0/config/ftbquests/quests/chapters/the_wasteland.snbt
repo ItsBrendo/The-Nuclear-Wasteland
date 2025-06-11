@@ -1,0 +1,457 @@
+{
+	autofocus_id: "2411E66549883D62"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_wasteland"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: {
+		Count: 1
+		id: "mekanismtools:diamond_paxel"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "16F06B51F7B642AF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["416498E98AC350EA"]
+			description: ["Gather 8x Dead Logs from the scorched trees to begin rebuilding."]
+			id: "46CDABF18A89C54F"
+			tasks: [{
+				count: 8L
+				id: "7CEE4143EBA2FFFD"
+				item: { Count: 8, id: "biomesoplenty:dead_log" }
+				type: "item"
+			}]
+			title: "Ashes and Echoes"
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"You had been deep underground, mining, when the world ended. The explosion struck without warning—the earth roared, the tunnel shook, and then... silence. Trapped beneath layers of stone, you were spared the blast, the fire, the radiation. Time passed in darkness. When you finally dug your way out, the world you knew was gone."
+				""
+				"Now, the surface lies still and silent, cloaked in a heavy yellow fog. The land is scarred, yet eerily intact. No life stirs. Your first task: gather Dead Logs from the withered trees that stubbornly remain—relics of a broken world. They mark the beginning of your journey through the aftermath. Survive, adapt, and uncover what was left behind."
+			]
+			id: "416498E98AC350EA"
+			rewards: [
+				{
+					id: "3304C8D8314B6543"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 90
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "64B8348BA05D3001"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "2D379B6B844A88AE"
+					item: "pamhc2foodextended:vegemiteontoastitem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "biomesoplenty:wasteland"
+				id: "2723F17276E0023B"
+				title: "Enter: The Nuclear Wasteland"
+				type: "biome"
+			}]
+			title: "Ground Zero"
+			x: -16.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["50DBE34EAED999A6"]
+			description: ["Fire isn’t just for warmth—it’s for progress. With enough stone, you can build a furnace. It’s your first real tool for transforming the world around you."]
+			id: "6B347E520E1FE832"
+			tasks: [{
+				id: "3292F5A629F5BA5D"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "The Heat Within"
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["46CDABF18A89C54F"]
+			description: ["The old world may be dust, but stone endures. Break through the cracked earth and gather cobblestone—it’s crude, but it’s the first step toward tools, shelter, and survival."]
+			id: "50DBE34EAED999A6"
+			tasks: [{
+				count: 32L
+				id: "559F673D5FC853DB"
+				item: { Count: 32, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			title: "Scrap and Stone"
+			x: -12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2FA115AA27EBA377"]
+			description: ["The lakes and rivers are poisoned. Rain brings nothing but sickness. If you want to survive, you’ll have to make your own clean water. Place a wooden bucket over a campfire and boil it into something drinkable."]
+			id: "481822AF6AC78740"
+			tasks: [{
+				id: "7E2407D6C2CA1961"
+				item: "pamhc2foodcore:freshwateritem"
+				type: "item"
+			}]
+			title: "Boil or Die"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["481822AF6AC78740"]
+			description: ["Milk isn’t toxic—but it’s thick, raw, and full of sediment from long storage. You’ll need to strain it through paper to make it safe and usable for cooking. It’s not glamorous, but it keeps you alive."]
+			id: "1871F1D9FCCEEB65"
+			tasks: [{
+				id: "39738192CD1ED6B6"
+				item: "pamhc2foodcore:freshmilkitem"
+				type: "item"
+			}]
+			title: "Strained Sustenance"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B347E520E1FE832"]
+			description: ["Craft a stone axe, stone hoe, stone sword and another stone pickaxe. You need something to defend yourself and make life a bit easier, considering what's happened."]
+			id: "6E05D5D906175E9F"
+			tasks: [
+				{
+					id: "664F30A8EF6C19D2"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18A53171370C77AE"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D76D6E750E7CEF6"
+					item: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E5781FB21D77C6D"
+					item: {
+						Count: 1
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cracked Stone, Cracked Mind"
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["46CDABF18A89C54F"]
+			description: ["When the blast struck, it tore the land apart and flung its bones across the surface. Clay now rests in strange places—on the hills, not in the rivers. Tread carefully. The water below is poison."]
+			id: "0759811B7F6B7DDD"
+			tasks: [{
+				id: "7E81A306412E2BBA"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			title: "Clay on the Wind"
+			x: -14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E05D5D906175E9F"]
+			description: ["Coal is one of the few things that survived untouched. It's plentiful, but vital. Use it wisely—for heat, for light, and for machines to come."]
+			id: "2411E66549883D62"
+			tasks: [{
+				id: "2BE92DDC04B23371"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			title: "Fuel for the Future"
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2411E66549883D62"]
+			description: ["Iron is the blood of the old world, rusted but not forgotten. Extract it, smelt it, and reshape what once was."]
+			id: "6C8D401F04070B5C"
+			tasks: [{
+				id: "14FBBC88957AF0AF"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Metal from the Bones"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["46CDABF18A89C54F"]
+			description: ["Any dirt on the surface was scorched clean off. What dirt remains was buried deep—protected by the earth itself. Dig down, carefully. Dirt means life, and life is rare."]
+			id: "68777802DB22D9CF"
+			tasks: [{
+				id: "5AA0E44D7D801080"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "Buried Hope"
+			x: -14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6C8D401F04070B5C"]
+			description: ["Steel yourself against the world. Craft a full set of iron armor and combine some new iron tools into a paxel (minus the hoe—you’re not farming that much)."]
+			id: "702E9F11A3CD73E8"
+			tasks: [
+				{
+					id: "288F2B3C6663BE9A"
+					item: {
+						Count: 1
+						id: "mekanismtools:iron_paxel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0495E479BF44E679"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C60023826DA7834"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "116F2983001B1414"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52AF630961D1E95F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forged in Fallout"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F982E52FABA31B0"]
+			description: ["Copper is common, but crucial. Harvest it, smelt it, and prepare to wire the future."]
+			id: "380811863626D77F"
+			tasks: [{
+				id: "34D4643D27D19BAF"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Conductive Copper"
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6E05D5D906175E9F"]
+			description: ["Osmium is rare but vital. It powers the structure of your machines. Don't waste a single ingot."]
+			id: "3F982E52FABA31B0"
+			tasks: [{
+				id: "7C580037BC359164"
+				item: "mekanism:ingot_osmium"
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Osmium: The Catalyst"
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["702E9F11A3CD73E8"]
+			description: ["Deep underground, you find it—redstone, the heart of power. It hums with possibility."]
+			id: "5169C721247FEA53"
+			tasks: [{
+				count: 32L
+				id: "697DA3951D11B1E0"
+				item: { Count: 32, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			title: "Sparks in the Dust"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["702E9F11A3CD73E8"]
+			description: ["Buried deep beneath the fractured world lie the last remnants of a forgotten age. Diamonds—once symbols of wealth, now tools of survival."]
+			id: "0439393F8054830A"
+			tasks: [{
+				id: "682B3F000834EFD9"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Crystals of the Past"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0439393F8054830A"]
+			description: ["Diamond gear represents a pinnacle of survival. Durable, sharp, and gleaming in the dust—it's more than protection; it's a statement. Few remain strong enough to wear it."]
+			id: "3FDB63EB060A2B12"
+			tasks: [
+				{
+					id: "153C32F8483F491B"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A72D0D6268A0989"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21600633194B4B2F"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63F4EFDC7840825F"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D6E2ADE764B1D7E"
+					item: {
+						Count: 1
+						id: "mekanismtools:diamond_paxel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Vaulted Strength"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5169C721247FEA53"]
+			id: "4C46551936396221"
+			tasks: [{
+				id: "1D0287EABDE5E9A9"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2411E66549883D62"]
+			description: ["The fog chills you to the bone. Craft a campfire to keep warm and feel alive again."]
+			id: "2FA115AA27EBA377"
+			tasks: [{
+				id: "44C452D9341B49E2"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "Warmth"
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3FDB63EB060A2B12"]
+			description: ["You have completed all currently available quests for this chapter. It is recommended you start the \"&oForging The Future&r\" or &oAshen Harvests&r\" chapter next."]
+			id: "10DF61485BABE811"
+			subtitle: "More quests being added each update!"
+			tasks: [{
+				id: "2A3E3F9A45AA7A7A"
+				title: "Complete Chapter"
+				type: "checkmark"
+			}]
+			title: "Chapter Complete"
+			x: 3.5d
+			y: -4.5d
+		}
+	]
+	title: "The Wasteland"
+}

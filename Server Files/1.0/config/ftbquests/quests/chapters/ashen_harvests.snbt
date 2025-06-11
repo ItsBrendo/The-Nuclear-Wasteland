@@ -1,0 +1,144 @@
+{
+	autofocus_id: "46BE23D4EEE11FE6"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ashen_harvests"
+	group: ""
+	hide_quest_details_until_startable: true
+	id: "228FBB5BD2758611"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Amid the decay, life clings on. Scattered across the wasteland; Arid, Shaded and Soggy Gardens break through the ash. Forage what you can—this is where your survival begins."]
+			id: "7C509E846E597284"
+			tasks: [
+				{
+					icon: "pamhc2crops:aridgarden"
+					id: "732086132BBD11BC"
+					observe_type: 0
+					timer: 0L
+					title: "Find a Arid Garden"
+					to_observe: "pamhc2crops:aridgarden"
+					type: "observation"
+				}
+				{
+					icon: "pamhc2crops:shadedgarden"
+					id: "26DFD4FBACF8F21D"
+					observe_type: 0
+					timer: 0L
+					title: "Find a Shaded Garden"
+					to_observe: "pamhc2crops:shadedgarden"
+					type: "observation"
+				}
+				{
+					icon: "pamhc2crops:soggygarden"
+					id: "37563EC641CB45AD"
+					observe_type: 0
+					timer: 0L
+					title: "Find a Soggy Garden"
+					to_observe: "pamhc2crops:soggygarden"
+					type: "observation"
+				}
+			]
+			title: "Roots of Survival"
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2414185CBC41FB40"]
+			description: ["With fire comes food. Use a campfire to cook something edible."]
+			id: "46BE23D4EEE11FE6"
+			tasks: [{
+				count: 4L
+				id: "14396BC9DF1B1AB4"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			title: "Flickering Hope"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C509E846E597284"]
+			description: ["Place a few crop sticks in the fresh dirt, Plant the seeds from the gardens you’ve scavenged. The land resists—but life pushes back."]
+			id: "2414185CBC41FB40"
+			tasks: [{
+				count: 3L
+				id: "59C270E58D018CF5"
+				item: "agricraft:wooden_crop_sticks"
+				type: "item"
+			}]
+			title: "Seeds of Change"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68C1819B4F5AAB6B"]
+			description: ["Only the strongest survive. And the strongest eat Vegemite on toast. A nod to a land down under—where even the apocalypse can’t kill flavor."]
+			id: "07C1736385FD3B98"
+			tasks: [{
+				id: "0723A2102998F010"
+				item: "pamhc2foodextended:vegemiteontoastitem"
+				type: "item"
+			}]
+			title: "True Blue Breakfast"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["57513C2BF8C3A56B"]
+			id: "68C1819B4F5AAB6B"
+			tasks: [
+				{
+					id: "5170F753BAC3CD51"
+					item: "pamhc2foodextended:vegemiteitem"
+					type: "item"
+				}
+				{
+					id: "44FC34E2B81EA42C"
+					item: "pamhc2foodcore:toastitem"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["46BE23D4EEE11FE6"]
+			description: ["With fire and clean water, you can cook more than just meat. Make basic cookware and rediscover real meals."]
+			id: "57513C2BF8C3A56B"
+			tasks: [
+				{
+					id: "25DBA3B20247DF5D"
+					item: "pamhc2foodcore:potitem"
+					type: "item"
+				}
+				{
+					id: "13426460008C0C1C"
+					item: "pamhc2foodcore:saucepanitem"
+					type: "item"
+				}
+				{
+					id: "1F9E10EB15AF1D4F"
+					item: "pamhc2foodcore:cuttingboarditem"
+					type: "item"
+				}
+				{
+					id: "7480041C66BCC1DB"
+					item: "pamhc2foodcore:juiceritem"
+					type: "item"
+				}
+				{
+					id: "415A6F608BE9970D"
+					item: "pamhc2foodcore:bakewareitem"
+					type: "item"
+				}
+			]
+			title: "Echoes of the Kitchen"
+			x: -3.0d
+			y: -0.5d
+		}
+	]
+	title: "Ashen Harvests"
+}

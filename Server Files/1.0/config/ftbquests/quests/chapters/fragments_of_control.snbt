@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fragments_of_control"
+	group: ""
+	hide_quest_details_until_startable: true
+	id: "501CF977691839D9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0A3F2A860588CEF5"]
+			description: ["Refined from quartz, silicon is the backbone of every processor. Smelt Certus Quartz Dust or Nether Quartz to create this essential component."]
+			id: "5C921F93ECCB0B49"
+			size: 1.0d
+			tasks: [{
+				id: "6A266ABD9876A982"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			title: "Silicon Steps"
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			description: ["Scattered across the surface, nestled in dusty patches and odd formations, lie the remains of strange crystalline growths. These fragments hum faintly with old data—perhaps there’s more to them than meets the eye."]
+			id: "0A3F2A860588CEF5"
+			size: 1.0d
+			tasks: [
+				{
+					id: "315D71B3FB41539C"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					id: "72DB855BB75321FA"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			title: "Echoes in the Dust"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["49312BFA9BED0D7A"]
+			description: ["These pressed components are used in nearly every advanced machine you'll build. Make a stockpile—you'll need them."]
+			id: "4B7B1666A780F698"
+			size: 1.0d
+			tasks: [
+				{
+					id: "748A225DB1C1A75F"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "089BB9F2B5DF5370"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "75A316F588BD1015"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "740ED04862F795AA"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+			]
+			title: "Process This"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["495D35FEE6AA5B66"]
+			description: ["You're entering a new age—no more clunky machinery. The Inscriber is your first step into digital tech. Use it to press logic and silicon into something extraordinary."]
+			id: "49312BFA9BED0D7A"
+			size: 1.0d
+			tasks: [{
+				id: "232E3D87375B2AC0"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "Strange Circuits"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4B7B1666A780F698"]
+			description: ["Combine your printed circuits into full processors. These tiny brains power everything from terminals to quantum bridges."]
+			id: "37D447319D732AEC"
+			size: 1.0d
+			tasks: [
+				{
+					id: "577EAC27F28566D8"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "1F74AE33DE253E9A"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "5F7B4858D00199CF"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "Smart Core"
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5C921F93ECCB0B49"]
+			description: ["Scattered across the wasteland, strange meteors lie half-buried in the earth. Their cores hold relics of forgotten tech—presses used to form the circuits of a lost age. Crack them open and retrieve what's inside."]
+			id: "495D35FEE6AA5B66"
+			size: 1.0d
+			tasks: [
+				{
+					id: "154C39443218EC51"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "5B42A64F0F790AF8"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "51DF581D0B1A3B36"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "1013B1083E822C94"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "Ancient Impressions"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3FDB63EB060A2B12"
+				"37D447319D732AEC"
+			]
+			description: ["You have completed all currently available quests for this chapter. It is recommended you start the \"&oPerimiter Protocol&r\" chapter next."]
+			id: "3B84267E95C686F8"
+			subtitle: "More quests being added each update!"
+			tasks: [{
+				id: "03B877ABCF098889"
+				title: "Complete Chapter"
+				type: "checkmark"
+			}]
+			title: "Chapter Complete"
+			x: 5.5d
+			y: -5.5d
+		}
+	]
+	title: "Fragments of Control"
+}

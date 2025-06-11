@@ -1,0 +1,336 @@
+[
+  {
+    "phase": "after_day_1",
+    "mob": "minecraft:husk",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 12,
+      "maximum": 24
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 75,
+      "minheight": 60,
+      "maxthis": 50
+    }
+  },
+  {
+    "phase": "after_day_1",
+    "mob": "monsterplus:glow_skeleton",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 12,
+      "maximum": 24
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 75,
+      "minheight": 60,
+      "maxthis": 50
+    }
+  },
+  {
+    "phase": "after_day_1",
+    "mob": "minecraft:cave_spider",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 12,
+      "maximum": 24
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 75,
+      "minheight": 60,
+      "maxthis": 50
+    }
+  },
+  {
+    "phase": "after_day_1",
+    "mob": "mutantmonsters:spider_pig",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 75,
+      "minheight": 60,
+      "maxthis": 3
+    }
+  },
+  {
+    "phase": "after_day_1",
+    "mob": "mutantmonsters:mutant_skeleton",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 75,
+      "minheight": 60,
+      "maxthis": 1
+    }
+  },
+  {
+    "phase": "after_day_1",
+    "mob": "mutantmonsters:mutant_enderman",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 75,
+      "minheight": 60,
+      "maxthis": 1
+    }
+  },
+  {
+    "phase": "after_day_1",
+    "mob": "minecraft:stray",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 12,
+      "maximum": 24
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 75,
+      "minheight": 60,
+      "maxthis": 50
+    }
+  },
+  {
+    "phase": "after_day_1",
+    "mob": "minecraft:zombie_villager",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 12,
+      "maximum": 24
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 75,
+      "minheight": 60,
+      "maxthis": 50
+    }
+  },
+  {
+    "phase": "after_day_1",
+    "mob": ["monsterplus:opalescent_eye"],
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 70,
+      "mindist": 50,
+      "maxthis": 6
+    }
+  },
+  {
+    "mob": "minecraft:frog",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 50,
+      "minheight": 60,
+      "maxthis": 50
+    }
+  },
+  {
+    "mob": "minecraft:mooshroom",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 3,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 100,
+      "minheight": 60,
+      "maxthis": 25
+    }
+  },
+  {
+    "mob": "minecraft:chicken",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 3,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 100,
+      "minheight": 60,
+      "maxthis": 25
+    }
+  },
+  {
+    "mob": "minecraft:slime",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "maxthis": 50
+    }
+  },
+  {
+    "mob": "minecraft:bat",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 12,
+      "maximum": 24
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 50,
+      "maxheight": 59,
+      "maxthis": 200
+    }
+  },
+  {
+    "mob": "rats:rat",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 12,
+      "maximum": 24
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 50,
+      "minheight": 40,
+      "maxthis": 200
+    }
+  },
+  {
+    "mob": ["minecraft:glow_squid", "minecraft:tadpole"],
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 24,
+      "maximum": 48
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld", 
+      "inwater": true,
+      "mindist": 0
+    }
+  },
+  {
+    "mob": ["monsterplus:glow_skeleton", "minecraft:stray", "minecraft:cave_spider"],
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 12,
+      "maximum": 24
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 15,
+      "maxheight": 49,
+      "minheight": -100,
+      "maxthis": 150
+    }
+  },
+  {
+    "mob": ["minecraft:enderman"],
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 12,
+      "maximum": 24
+    },
+    "conditions": {
+      "dimension": "deeperdarker:otherside",
+      "mindist": 15,
+      "maxthis": 50
+    }
+  },
+  {
+    "mob": ["minecraft:blaze", "minecraft:magma_cube", "minecraft:piglin", "minecraft:wither_skeleton"],
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 12,
+      "maximum": 24
+    },
+    "conditions": {
+      "dimension": "deeperdarker:otherside",
+      "mindist": 15,
+      "maxthis": 100
+    }
+  },
+  {
+    "mob": ["minecraft:hoglin"],
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "deeperdarker:otherside",
+      "mindist": 15,
+      "maxthis": 2
+    }
+  },
+  {
+    "mob": ["deeperdarker:shattered", "deeperdarker:sculk_snapper"],
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 12,
+      "maximum": 24
+    },
+    "conditions": {
+      "dimension": "deeperdarker:otherside",
+      "mindist": 15,
+      "maxthis": 50
+    }
+  },
+  {
+    "phase": "after_day_1",
+    "mob": "quark:forgotten",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 60,
+      "mindist": 50,
+      "maxthis": 3
+    }
+  }
+]

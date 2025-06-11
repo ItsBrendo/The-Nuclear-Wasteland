@@ -1,0 +1,3 @@
+#A list of messages that if contained in a message will be stopped.
+messages = ["You are using a beta version of Railcraft Reborn", "You are using a development version of Railcraft Reborn", "This game is using an alpha build of Ender IO", "[Mekanism] Broken tags in Mekanism recipes detected, please check server logs for details. You will be missing some recipes and machines may not accept expected inputs.", "advancement [Ice and Fire]"]
+

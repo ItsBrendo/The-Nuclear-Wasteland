@@ -1,0 +1,165 @@
+{
+	autofocus_id: "0F2B4CA965EB848C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "below_the_silence"
+	group: ""
+	hide_quest_details_until_startable: true
+	id: "74A8351B1FED58B8"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Near the depths of the wasteland, dark seams of strange ore cling to the stone. Resistant to time and decay, these fragments—Ancient Debris—can be refined into scrap. Combine it with gold to forge an ingot worthy of legends."]
+			id: "799ECA59655E3539"
+			tasks: [{
+				id: "66DB2476A8149A4B"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Buried Time"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["799ECA59655E3539"]
+			description: ["With this equipment, you’re ready for the dark beneath. The echoes from below grow louder—an ancient city waits, and with it, something that was never meant to wake. Steel yourself; the real fight begins soon."]
+			id: "5115D6F2C46B302C"
+			tasks: [
+				{
+					id: "5810DCE0D20C0BFF"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4581B19C9948286F"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4762C9E6806B0843"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "233B38F32BC4927D"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AA56F25D2D54E75"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dreadforged  "
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5115D6F2C46B302C"]
+			description: ["Beneath the world lies a city of silence and darkness. A relic of what came before... or something worse? You've found it. What now?"]
+			id: "5028AF3BD9751637"
+			tasks: [{
+				id: "46856B897E639F95"
+				structure: "minecraft:ancient_city"
+				title: "Find the Ancient City"
+				type: "structure"
+			}]
+			title: "City of Echoes"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5028AF3BD9751637"]
+			description: ["In the depths of the ancient city, a monstrous guardian stirs—drawn to sound, relentless in silence. Defeating it is no small feat, but those who prevail may uncover its blackened heart, a relic pulsing with forgotten power. This... is only the beginning."]
+			id: "0F2B4CA965EB848C"
+			tasks: [{
+				id: "7C9156AD266D0DC7"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F2B4CA965EB848C"]
+			description: [
+				"The Warden’s Heart pulses even after death—its purpose unclear, its pull undeniable. Somewhere within the ancient city's ruins, deep structures respond to its presence. Use it wisely... and the path to the Otherside may open."
+				"{@pagebreak}"
+				"Find a Portal Frame in the Ancient City (it's massive and near the centre) and activate it by right clicking with the Heart of the Deep... Make sure to clear any sculk that has spread on the frame... The portal will then light up. HINT: The Nether and The End are replaced with this dimension."
+			]
+			id: "5F9FD9D630F62045"
+			subtitle: "Stuck? Goto next page for the guide."
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "4F0769D98CA1F84A"
+				title: "Enter: The Otherside"
+				type: "dimension"
+			}]
+			title: "Through the Silence"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F9FD9D630F62045"]
+			id: "29AD362EE02FC65D"
+			tasks: [{
+				count: 64L
+				id: "33F0139E0A40F526"
+				item: "deeperdarker:grime_ball"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3FDB63EB060A2B12"
+				"29AD362EE02FC65D"
+			]
+			description: ["You have completed all currently available quests for this chapter. It is recommended you start the \"&oForging The Future&r\" chapter next."]
+			id: "14F5C4012AE7E7E5"
+			subtitle: "More quests being added each update!"
+			tasks: [{
+				id: "71EED0CE17DDC6B7"
+				title: "Complete Chapter"
+				type: "checkmark"
+			}]
+			title: "Chapter Complete"
+			x: 7.5d
+			y: -2.5d
+		}
+	]
+	title: "Below The Silence"
+}

@@ -1,0 +1,58 @@
+{
+	autofocus_id: "519FC34811BFDB22"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "perimeter_protocol"
+	group: ""
+	hide_quest_details_until_startable: true
+	id: "33D26DA95C38E962"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["706575C9B507FAC2"]
+			description: ["They come from the dark. They don’t stop. It’s time to stop fighting alone. With the Basic Laser Turret, you build the first wall between you and the wasteland."]
+			id: "519FC34811BFDB22"
+			size: 1.0d
+			tasks: [{
+				id: "659CFFC29506196A"
+				item: "mekanism_turrets:basic_laser_turret"
+				type: "item"
+			}]
+			title: "Automated Defense"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			description: ["Keep the creeps at bay—literally. The Electric Fence shocks anything that gets too close. No ammo required, just power."]
+			id: "706575C9B507FAC2"
+			size: 1.0d
+			tasks: [{
+				id: "78647A6FB55486C7"
+				item: "mekanism_turrets:electric_fence"
+				type: "item"
+			}]
+			title: "High Voltage Perimeter"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3FDB63EB060A2B12"
+				"519FC34811BFDB22"
+			]
+			description: ["You have completed all currently available quests for this chapter. It is recommended you start the \"&oBelow The Silence&r\" chapter next."]
+			id: "28949AAE91FB8A23"
+			subtitle: "More quests being added each update!"
+			tasks: [{
+				id: "2E3E6A83A630AF8A"
+				title: "Complete Chapter"
+				type: "checkmark"
+			}]
+			title: "Chapter Complete"
+			x: -0.5d
+			y: -4.0d
+		}
+	]
+	title: "Perimeter Protocol"
+}

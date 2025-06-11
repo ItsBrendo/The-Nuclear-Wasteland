@@ -1,0 +1,24 @@
+{
+  "skipWeatherOnSleep": {
+    "desc:": "Whether to skip weather after sleeping: default:false",
+    "skipWeatherOnSleep": true
+  },
+  "clearWeatherCommand": {
+    "desc:": "Command for clean weather",
+    "clearWeatherCommand": "weather clear"
+  },
+  "weatherEntries": {
+    "desc:": "Weather entries, duration in seconds. Weight is the chance to be chosen out of the sum of all weights",
+    "weatherEntries": [
+      {
+        "world": "minecraft:overworld",
+        "thunder": {
+          "command": "weather thunder",
+          "weight": 100,
+          "duration": 300,
+          "clearDuration": 3600
+        }
+      }
+    ]
+  }
+}

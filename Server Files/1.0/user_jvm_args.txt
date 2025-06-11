@@ -1,0 +1,2 @@
+# The Nuclear Wasteland requires 8GB minimum to run. Anything less will show performance issues.
+-Xmx8G

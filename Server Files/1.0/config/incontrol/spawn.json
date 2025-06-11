@@ -1,0 +1,154 @@
+[
+  {
+    "mob": "minecraft:creeper",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": ["mutantmonsters:mutant_creeper", "mutantmonsters:mutant_zombie"],
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:wandering_trader",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "when": "onjoin",
+    "nbt": {
+      "VillagerData": {
+        "profession": "minecraft:unemployed"
+      }
+    },
+    "result": "default"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "monsterplus:glow_skeleton",
+    "when": "onjoin",
+    "result": "allow",
+    "speedmultiply": 1,
+    "helditem": ["minecraft:bone"]
+  },
+  {
+    "mob": "minecraft:warden",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 0.50,
+    "damagemultiply": 0.75
+  },
+  {
+    "mob": "minecraft:chicken",
+    "when": "onjoin",
+    "result": "allow",
+    "speedmultiply": 2.00,
+    "healthmultiply": 4.5
+  },
+  {
+    "mob": "minecraft:mooshroom",
+    "when": "onjoin",
+    "result": "allow",
+    "speedmultiply": 2.0,
+    "healthmultiply": 2
+  },
+  {
+    "mob": "minecraft:stray",
+    "when": "onjoin",
+    "result": "allow",
+    "speedmultiply": 1,
+    "helditem": ["minecraft:bone"]
+  },
+  {
+    "mob": "minecraft:phantom",
+    "when": "onjoin",
+    "result": "allow",
+    "speedmultiply": 1
+  },
+  {
+    "mob": ["deeperdarker:shattered", "deeperdarker:sculk_snapper"],
+    "dimension": "deeperdarker:otherside",
+    "biome": "deeperdarker:blooming_caverns",
+    "result": "default"
+  },
+  {
+    "mob": ["deeperdarker:shattered"],
+    "dimension": "deeperdarker:otherside",
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:enderman"],
+    "dimension": "deeperdarker:otherside",
+    "biome": "deeperdarker:echoing_forest",
+    "result": "default"
+  },
+  {
+    "mob": ["minecraft:enderman"],
+    "dimension": "deeperdarker:otherside",
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:blaze", "minecraft:magma_cube", "minecraft:piglin", "minecraft:hoglin", "minecraft:wither_skeleton"],
+    "dimension": "deeperdarker:otherside",
+    "biome": "deeperdarker:overcast_columns",
+    "result": "default"
+  },
+  {
+    "mob": ["minecraft:blaze", "minecraft:magma_cube", "minecraft:piglin", "minecraft:hoglin", "minecraft:wither_skeleton"],
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:blaze", "minecraft:magma_cube", "minecraft:piglin", "minecraft:hoglin", "minecraft:wither_skeleton"],
+    "dimension": "deeperdarker:otherside",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:husk",
+    "when": "onjoin",
+    "result": "allow",
+    "speedmultiply": 1.35,
+    "helditem": ["minecraft:bone"]
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "when": "onjoin",
+    "result": "allow",
+    "angry": true,
+    "speedmultiply": 1
+  },
+  {
+    "mob": "minecraft:cave_spider",
+    "when": "onjoin",
+    "result": "allow",
+    "angry": true,
+    "speedmultiply": 1.2
+  },
+  {
+    "mob": "minecraft:creeper",
+    "when": "onjoin",
+    "result": "allow",
+    "speedmultiply": 1
+  },
+  {
+    "mob": "minecraft:skeleton_horse",
+    "when": "onjoin",
+    "result": "allow",
+    "speedmultiply": 1
+  },
+  {
+    "mob": "minecraft:pig",
+    "when": "onjoin",
+    "result": "deny"
+  }
+]

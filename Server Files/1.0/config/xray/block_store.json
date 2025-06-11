@@ -1,0 +1,744 @@
+[
+  {
+    "name": "Venus Coal Ore",
+    "blockName": "ad_astra:venus_coal_ore",
+    "order": 65,
+    "color": 13605660,
+    "drawing": false
+  },
+  {
+    "name": "Sculk Grime",
+    "blockName": "deeperdarker:sculk_grime",
+    "order": 106,
+    "color": 42495,
+    "drawing": true
+  },
+  {
+    "name": "Gloomslate Copper Ore",
+    "blockName": "deeperdarker:gloomslate_copper_ore",
+    "order": 10,
+    "color": 10370128,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Lead Ore",
+    "blockName": "mekanism:deepslate_lead_ore",
+    "order": 59,
+    "color": 8865617,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Osmium Ore",
+    "blockName": "mekanism:deepslate_osmium_ore",
+    "order": 43,
+    "color": 4027072,
+    "drawing": false
+  },
+  {
+    "name": "Lithium Deepslate Ore",
+    "blockName": "nuclearcraft:lithium_deepslate_ore",
+    "order": 33,
+    "color": 5715587,
+    "drawing": false
+  },
+  {
+    "name": "Sculk Stone Redstone Ore",
+    "blockName": "deeperdarker:sculk_stone_redstone_ore",
+    "order": 4,
+    "color": 15354888,
+    "drawing": false
+  },
+  {
+    "name": "Moon Desh Ore",
+    "blockName": "ad_astra:moon_desh_ore",
+    "order": 97,
+    "color": 3346109,
+    "drawing": false
+  },
+  {
+    "name": "Gloomslate Coal Ore",
+    "blockName": "deeperdarker:gloomslate_coal_ore",
+    "order": 8,
+    "color": 9918622,
+    "drawing": false
+  },
+  {
+    "name": "Glacio Fluorite Ore",
+    "blockName": "mekanismaaa:glacio_fluorite_ore",
+    "order": 55,
+    "color": 4547000,
+    "drawing": false
+  },
+  {
+    "name": "Gold Ore",
+    "blockName": "minecraft:gold_ore",
+    "order": 76,
+    "color": 5068329,
+    "drawing": false
+  },
+  {
+    "name": "Mercury Uranium Ore",
+    "blockName": "mekanismaaa:mercury_uranium_ore",
+    "order": 51,
+    "color": 16471942,
+    "drawing": false
+  },
+  {
+    "name": "Magnesium Ore",
+    "blockName": "nuclearcraft:magnesium_ore",
+    "order": 19,
+    "color": 13544220,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Calorite Ore",
+    "blockName": "ad_astra:deepslate_calorite_ore",
+    "order": 102,
+    "color": 10121053,
+    "drawing": false
+  },
+  {
+    "name": "Uranium Deepslate Ore",
+    "blockName": "nuclearcraft:uranium_deepslate_ore",
+    "order": 18,
+    "color": 5814925,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Silver Ore",
+    "blockName": "iceandfire:deepslate_silver_ore",
+    "order": 35,
+    "color": 15677836,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Desh Ore",
+    "blockName": "ad_astra:deepslate_desh_ore",
+    "order": 98,
+    "color": 3383548,
+    "drawing": false
+  },
+  {
+    "name": "Gloomslate Lapis Lazuli Ore",
+    "blockName": "deeperdarker:gloomslate_lapis_ore",
+    "order": 14,
+    "color": 13577779,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Copper Ore",
+    "blockName": "minecraft:deepslate_copper_ore",
+    "order": 68,
+    "color": 14278029,
+    "drawing": false
+  },
+  {
+    "name": "Mercury Iron Ore",
+    "blockName": "ad_astra:mercury_iron_ore",
+    "order": 84,
+    "color": 14407293,
+    "drawing": false
+  },
+  {
+    "name": "Mercury Osmium Ore",
+    "blockName": "mekanismaaa:mercury_osmium_ore",
+    "order": 45,
+    "color": 1565810,
+    "drawing": false
+  },
+  {
+    "name": "Venus Uranium Ore",
+    "blockName": "mekanismaaa:venus_uranium_ore",
+    "order": 52,
+    "color": 10686715,
+    "drawing": false
+  },
+  {
+    "name": "Diamond Ore",
+    "blockName": "minecraft:diamond_ore",
+    "order": 70,
+    "color": 14443389,
+    "drawing": false
+  },
+  {
+    "name": "Gloomslate Redstone Ore",
+    "blockName": "deeperdarker:gloomslate_redstone_ore",
+    "order": 12,
+    "color": 13354286,
+    "drawing": false
+  },
+  {
+    "name": "Gloomslate Iron Ore",
+    "blockName": "deeperdarker:gloomslate_iron_ore",
+    "order": 9,
+    "color": 1035256,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Iron Ore",
+    "blockName": "minecraft:deepslate_iron_ore",
+    "order": 81,
+    "color": 2413125,
+    "drawing": false
+  },
+  {
+    "name": "Chest",
+    "blockName": "minecraft:chest",
+    "order": 105,
+    "color": 65535,
+    "drawing": false
+  },
+  {
+    "name": "Silver Deepslate Ore",
+    "blockName": "nuclearcraft:silver_deepslate_ore",
+    "order": 23,
+    "color": 9239541,
+    "drawing": false
+  },
+  {
+    "name": "Tin Ore",
+    "blockName": "mekanism:tin_ore",
+    "order": 37,
+    "color": 10235539,
+    "drawing": false
+  },
+  {
+    "name": "Mars Iron Ore",
+    "blockName": "ad_astra:mars_iron_ore",
+    "order": 83,
+    "color": 7454036,
+    "drawing": false
+  },
+  {
+    "name": "Lead Ore",
+    "blockName": "nuclearcraft:lead_ore",
+    "order": 24,
+    "color": 3365654,
+    "drawing": false
+  },
+  {
+    "name": "Venus Calorite Ore",
+    "blockName": "ad_astra:venus_calorite_ore",
+    "order": 101,
+    "color": 3055835,
+    "drawing": false
+  },
+  {
+    "name": "Tin Ore",
+    "blockName": "nuclearcraft:tin_ore",
+    "order": 27,
+    "color": 16062566,
+    "drawing": false
+  },
+  {
+    "name": "Sapphire Ore",
+    "blockName": "iceandfire:sapphire_ore",
+    "order": 36,
+    "color": 11246253,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Tin Ore",
+    "blockName": "mekanism:deepslate_tin_ore",
+    "order": 38,
+    "color": 13488357,
+    "drawing": false
+  },
+  {
+    "name": "Redstone Ore",
+    "blockName": "minecraft:redstone_ore",
+    "order": 89,
+    "color": 3079712,
+    "drawing": false
+  },
+  {
+    "name": "Boron Ore",
+    "blockName": "nuclearcraft:boron_ore",
+    "order": 32,
+    "color": 11789906,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Fluorite Ore",
+    "blockName": "mekanism:deepslate_fluorite_ore",
+    "order": 54,
+    "color": 13843660,
+    "drawing": false
+  },
+  {
+    "name": "Glacio Lead Ore",
+    "blockName": "mekanismaaa:glacio_lead_ore",
+    "order": 60,
+    "color": 15353720,
+    "drawing": false
+  },
+  {
+    "name": "Lithium Ore",
+    "blockName": "nuclearcraft:lithium_ore",
+    "order": 25,
+    "color": 16112028,
+    "drawing": false
+  },
+  {
+    "name": "Magnesium Deepslate Ore",
+    "blockName": "nuclearcraft:magnesium_deepslate_ore",
+    "order": 16,
+    "color": 11897999,
+    "drawing": false
+  },
+  {
+    "name": "Sculk Stone Iron Ore",
+    "blockName": "deeperdarker:sculk_stone_iron_ore",
+    "order": 1,
+    "color": 2935349,
+    "drawing": false
+  },
+  {
+    "name": "Gloomslate Gold Ore",
+    "blockName": "deeperdarker:gloomslate_gold_ore",
+    "order": 11,
+    "color": 12287682,
+    "drawing": false
+  },
+  {
+    "name": "Sculk Stone Diamond Ore",
+    "blockName": "deeperdarker:sculk_stone_diamond_ore",
+    "order": 7,
+    "color": 5061728,
+    "drawing": false
+  },
+  {
+    "name": "Nether Gold Ore",
+    "blockName": "minecraft:nether_gold_ore",
+    "order": 77,
+    "color": 8148660,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Emerald Ore",
+    "blockName": "minecraft:deepslate_emerald_ore",
+    "order": 75,
+    "color": 2894064,
+    "drawing": false
+  },
+  {
+    "name": "Platinum Deepslate Ore",
+    "blockName": "nuclearcraft:platinum_deepslate_ore",
+    "order": 22,
+    "color": 13660584,
+    "drawing": false
+  },
+  {
+    "name": "Mars Diamond Ore",
+    "blockName": "ad_astra:mars_diamond_ore",
+    "order": 72,
+    "color": 5942127,
+    "drawing": false
+  },
+  {
+    "name": "Sculk Stone Gold Ore",
+    "blockName": "deeperdarker:sculk_stone_gold_ore",
+    "order": 3,
+    "color": 379242,
+    "drawing": false
+  },
+  {
+    "name": "Cobalt Deepslate Ore",
+    "blockName": "nuclearcraft:cobalt_deepslate_ore",
+    "order": 28,
+    "color": 15216207,
+    "drawing": false
+  },
+  {
+    "name": "Sculk Stone Emerald Ore",
+    "blockName": "deeperdarker:sculk_stone_emerald_ore",
+    "order": 5,
+    "color": 11714950,
+    "drawing": false
+  },
+  {
+    "name": "Thorium Deepslate Ore",
+    "blockName": "nuclearcraft:thorium_deepslate_ore",
+    "order": 17,
+    "color": 15155501,
+    "drawing": false
+  },
+  {
+    "name": "Glacio Osmium Ore",
+    "blockName": "mekanismaaa:glacio_osmium_ore",
+    "order": 44,
+    "color": 3912498,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Diamond Ore",
+    "blockName": "minecraft:deepslate_diamond_ore",
+    "order": 71,
+    "color": 8051030,
+    "drawing": false
+  },
+  {
+    "name": "Glacio Uranium Ore",
+    "blockName": "mekanismaaa:glacio_uranium_ore",
+    "order": 49,
+    "color": 4932107,
+    "drawing": false
+  },
+  {
+    "name": "Sculk Stone Copper Ore",
+    "blockName": "deeperdarker:sculk_stone_copper_ore",
+    "order": 2,
+    "color": 4750381,
+    "drawing": false
+  },
+  {
+    "name": "Moon Ice Shard Ore",
+    "blockName": "ad_astra:moon_ice_shard_ore",
+    "order": 93,
+    "color": 12482705,
+    "drawing": false
+  },
+  {
+    "name": "Silver Ore",
+    "blockName": "nuclearcraft:silver_ore",
+    "order": 29,
+    "color": 12836887,
+    "drawing": false
+  },
+  {
+    "name": "Moon Tin Ore",
+    "blockName": "mekanismaaa:moon_tin_ore",
+    "order": 41,
+    "color": 422708,
+    "drawing": false
+  },
+  {
+    "name": "Mercury Lead Ore",
+    "blockName": "mekanismaaa:mercury_lead_ore",
+    "order": 61,
+    "color": 7739751,
+    "drawing": false
+  },
+  {
+    "name": "Mars Ostrum Ore",
+    "blockName": "ad_astra:mars_ostrum_ore",
+    "order": 99,
+    "color": 12798831,
+    "drawing": false
+  },
+  {
+    "name": "Nether Quartz Ore",
+    "blockName": "minecraft:nether_quartz_ore",
+    "order": 91,
+    "color": 6206388,
+    "drawing": false
+  },
+  {
+    "name": "Boron Deepslate Ore",
+    "blockName": "nuclearcraft:boron_deepslate_ore",
+    "order": 20,
+    "color": 5565073,
+    "drawing": false
+  },
+  {
+    "name": "Lapis Lazuli Ore",
+    "blockName": "minecraft:lapis_ore",
+    "order": 86,
+    "color": 15407942,
+    "drawing": false
+  },
+  {
+    "name": "Glacio Iron Ore",
+    "blockName": "ad_astra:glacio_iron_ore",
+    "order": 85,
+    "color": 15366558,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Ice Shard Ore",
+    "blockName": "ad_astra:deepslate_ice_shard_ore",
+    "order": 96,
+    "color": 8031803,
+    "drawing": false
+  },
+  {
+    "name": "Silver Ore",
+    "blockName": "iceandfire:silver_ore",
+    "order": 34,
+    "color": 7319547,
+    "drawing": false
+  },
+  {
+    "name": "Thorium Ore",
+    "blockName": "nuclearcraft:thorium_ore",
+    "order": 26,
+    "color": 1716516,
+    "drawing": false
+  },
+  {
+    "name": "Glacio Ice Shard Ore",
+    "blockName": "ad_astra:glacio_ice_shard_ore",
+    "order": 95,
+    "color": 5012769,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Lapis Lazuli Ore",
+    "blockName": "minecraft:deepslate_lapis_ore",
+    "order": 87,
+    "color": 14288461,
+    "drawing": false
+  },
+  {
+    "name": "Mars Uranium Ore",
+    "blockName": "mekanismaaa:mars_uranium_ore",
+    "order": 50,
+    "color": 14118392,
+    "drawing": false
+  },
+  {
+    "name": "Gloomslate Emerald Ore",
+    "blockName": "deeperdarker:gloomslate_emerald_ore",
+    "order": 13,
+    "color": 10078221,
+    "drawing": false
+  },
+  {
+    "name": "Uranium Ore",
+    "blockName": "nuclearcraft:uranium_ore",
+    "order": 30,
+    "color": 12659585,
+    "drawing": false
+  },
+  {
+    "name": "Venus Lead Ore",
+    "blockName": "mekanismaaa:venus_lead_ore",
+    "order": 62,
+    "color": 11423261,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Redstone Ore",
+    "blockName": "minecraft:deepslate_redstone_ore",
+    "order": 90,
+    "color": 3303018,
+    "drawing": false
+  },
+  {
+    "name": "Osmium Ore",
+    "blockName": "mekanism:osmium_ore",
+    "order": 42,
+    "color": 5014032,
+    "drawing": false
+  },
+  {
+    "name": "Coal Ore",
+    "blockName": "minecraft:coal_ore",
+    "order": 63,
+    "color": 10505401,
+    "drawing": false
+  },
+  {
+    "name": "Sculk Stone Coal Ore",
+    "blockName": "deeperdarker:sculk_stone_coal_ore",
+    "order": 0,
+    "color": 14373496,
+    "drawing": false
+  },
+  {
+    "name": "Gloomslate Diamond Ore",
+    "blockName": "deeperdarker:gloomslate_diamond_ore",
+    "order": 15,
+    "color": 1715976,
+    "drawing": false
+  },
+  {
+    "name": "Fluorite Ore",
+    "blockName": "mekanism:fluorite_ore",
+    "order": 53,
+    "color": 6196990,
+    "drawing": false
+  },
+  {
+    "name": "Ancient Debris",
+    "blockName": "minecraft:ancient_debris",
+    "order": 92,
+    "color": 16711680,
+    "drawing": false
+  },
+  {
+    "name": "Glacio Lapis Ore",
+    "blockName": "ad_astra:glacio_lapis_ore",
+    "order": 88,
+    "color": 11046678,
+    "drawing": false
+  },
+  {
+    "name": "Ancient Debris",
+    "blockName": "ancient_debris_in_overworld:ancient_debris_in_overworld",
+    "order": 104,
+    "color": 16711680,
+    "drawing": true
+  },
+  {
+    "name": "Deepslate Coal Ore",
+    "blockName": "minecraft:deepslate_coal_ore",
+    "order": 64,
+    "color": 14453313,
+    "drawing": false
+  },
+  {
+    "name": "Glacio Copper Ore",
+    "blockName": "ad_astra:glacio_copper_ore",
+    "order": 69,
+    "color": 6867057,
+    "drawing": false
+  },
+  {
+    "name": "Moon Iron Ore",
+    "blockName": "ad_astra:moon_iron_ore",
+    "order": 82,
+    "color": 14590057,
+    "drawing": false
+  },
+  {
+    "name": "Venus Diamond Ore",
+    "blockName": "ad_astra:venus_diamond_ore",
+    "order": 73,
+    "color": 8667411,
+    "drawing": false
+  },
+  {
+    "name": "Moon Osmium Ore",
+    "blockName": "mekanismaaa:moon_osmium_ore",
+    "order": 46,
+    "color": 4599049,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Ostrum Ore",
+    "blockName": "ad_astra:deepslate_ostrum_ore",
+    "order": 100,
+    "color": 4951854,
+    "drawing": false
+  },
+  {
+    "name": "Cobalt Ore",
+    "blockName": "nuclearcraft:cobalt_ore",
+    "order": 21,
+    "color": 9388963,
+    "drawing": false
+  },
+  {
+    "name": "Mars Ice Shard Ore",
+    "blockName": "ad_astra:mars_ice_shard_ore",
+    "order": 94,
+    "color": 10056396,
+    "drawing": false
+  },
+  {
+    "name": "Zinc Ore",
+    "blockName": "nuclearcraft:zinc_ore",
+    "order": 31,
+    "color": 7769337,
+    "drawing": false
+  },
+  {
+    "name": "Lead Ore",
+    "blockName": "mekanism:lead_ore",
+    "order": 58,
+    "color": 10956134,
+    "drawing": false
+  },
+  {
+    "name": "Mars Tin Ore",
+    "blockName": "mekanismaaa:mars_tin_ore",
+    "order": 40,
+    "color": 11939858,
+    "drawing": false
+  },
+  {
+    "name": "Glacio Tin Ore",
+    "blockName": "mekanismaaa:glacio_tin_ore",
+    "order": 39,
+    "color": 1819246,
+    "drawing": false
+  },
+  {
+    "name": "Iron Ore",
+    "blockName": "minecraft:iron_ore",
+    "order": 80,
+    "color": 5129170,
+    "drawing": false
+  },
+  {
+    "name": "Emerald Ore",
+    "blockName": "minecraft:emerald_ore",
+    "order": 74,
+    "color": 12461030,
+    "drawing": false
+  },
+  {
+    "name": "Uranium Ore",
+    "blockName": "mekanism:uranium_ore",
+    "order": 47,
+    "color": 5623715,
+    "drawing": false
+  },
+  {
+    "name": "Sculk Stone Lapis Lazuli Ore",
+    "blockName": "deeperdarker:sculk_stone_lapis_ore",
+    "order": 6,
+    "color": 4066175,
+    "drawing": false
+  },
+  {
+    "name": "Venus Gold Ore",
+    "blockName": "ad_astra:venus_gold_ore",
+    "order": 79,
+    "color": 6050111,
+    "drawing": false
+  },
+  {
+    "name": "Copper Ore",
+    "blockName": "minecraft:copper_ore",
+    "order": 67,
+    "color": 8996644,
+    "drawing": false
+  },
+  {
+    "name": "Mars Fluorite Ore",
+    "blockName": "mekanismaaa:mars_fluorite_ore",
+    "order": 56,
+    "color": 16221305,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Uranium Ore",
+    "blockName": "mekanism:deepslate_uranium_ore",
+    "order": 48,
+    "color": 2896546,
+    "drawing": false
+  },
+  {
+    "name": "Glacio Coal Ore",
+    "blockName": "ad_astra:glacio_coal_ore",
+    "order": 66,
+    "color": 11049480,
+    "drawing": false
+  },
+  {
+    "name": "Venus Fluorite Ore",
+    "blockName": "mekanismaaa:venus_fluorite_ore",
+    "order": 57,
+    "color": 15756512,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Gold Ore",
+    "blockName": "minecraft:deepslate_gold_ore",
+    "order": 78,
+    "color": 834314,
+    "drawing": false
+  }
+]
