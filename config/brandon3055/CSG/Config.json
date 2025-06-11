@@ -1,6 +1,0 @@
-{
-  "inventory": {
-    "0:0": "minecraft:written_book,1,0,{pages:[\"{\\\"text\\\":\\\"You can report a bug via Discord or the Modpack page itself.\\\\n\\\\nPlease try to explain the bug and how I can reproduce it to make it easier and hopefully being patched quicker!\\\\n\\\\nThanks, Brendo.\\\"}\"],author:\"ItsBrendo\",title:\"Reporting Bugs\",resolved:1b}",
-    "0:1": "harvestcraft:grilledeggplantitem"
-  }
-}
