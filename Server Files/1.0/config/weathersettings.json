@@ -12,10 +12,16 @@
     "weatherEntries": [
       {
         "world": "minecraft:overworld",
+        "rain": {
+          "command": "weather rain",
+          "weight": 0,
+          "duration": 300,
+          "clearDuration": 3600
+        },
         "thunder": {
           "command": "weather thunder",
           "weight": 100,
-          "duration": 300,
+          "duration": 200,
           "clearDuration": 3600
         }
       }
