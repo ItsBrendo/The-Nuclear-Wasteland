@@ -34,7 +34,7 @@
 
 - A curated questline that evolves with each update!
 - Deep integration with **Mekanism**, **Applied Energistics 2**, **Rats**, **Biomes O’ Plenty**, and **Deeper Darker**
-- Over **130+ mods**, each selected to enhance survival, exploration, and storytelling
+- Over **150+ mods**, each selected to enhance survival, exploration, and storytelling
 - Mechanics such as Poisoned water and rain, biome-based effects, radiation, and custom crafting chains
 
 ---
